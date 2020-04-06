@@ -1,0 +1,250 @@
+1|Daphne's Greek Cafe|3.5|34.19198813|-118.937563|Greek, Mediterranean, Diner, Italian
+2|Daphne's Greek Cafe|2.5|37.755557|-122.250360846519|Greek, Mediterranean
+3|Laguna Pizza|4.5|38.423436|-121.41361|Pizza
+4|Starbucks Coffee|4.5|34.095731|-117.717899|American, Coffee, Tea
+5|Starbucks Coffee|5|36.341065|-119.347593|Coffee
+6|Starbucks Coffee|1.5|38.2583344863658|-122.053642272949|Coffee, American
+7|Starbucks Coffee|3.5|33.687567|-117.988336|Coffee, American
+8|Starbucks Coffee|4.5|33.787701|-117.815002|Coffee, American, Tea
+9|Starbucks Coffee|3|32.76668345|-115.5328849|Coffee, American, Tea
+10|Starbucks Coffee|4|34.0048|-118.153016|American, Coffee, Tea
+11|Starbucks Coffee|4|33.90267928|-118.083226|American, Coffee, Tea
+12|Starbucks Coffee|4|34.016384|-118.49698|American, Coffee
+13|Starbucks Coffee|2.5|34.050425|-117.820702|American, Coffee
+14|Starbucks Coffee|4.5|34.020118|-118.454407|Coffee, American, Tea
+15|Starbucks Coffee|5|38.739985|-121.226114|Coffee, American, Tea
+16|Starbucks Coffee|4|34.003477|-118.471965|Coffee
+17|Starbucks Coffee|4.5|33.672452|-117.953586|Coffee, American, Tea
+18|Starbucks Coffee|4|33.679278|-118.004725|Coffee, American, Tea
+19|Churchs Chicken|3.5|34.140635|-117.990695|Chicken, Wings, Fast Food
+20|El Adobe|3.5|33.499466|-117.6625|Mexican, American, Caribbean, Latin American
+21|Jack's Restaurant|4|34.864594|-120.44726|Bakery, American, Burgers, Chicken, Fast Food, Salad, Steak
+22|Yoshino River Park|3.5|36.849474|-119.784166666667|Sushi, Japanese
+23|Comfort Cafe|3.5|34.015477|-118.49252646|American, Healthy, Sandwiches, Burgers, Ice Cream, Juices, Seafood, Smoothies, Soup, Steak
+24|Hinano Café|4|33.979293|-118.466451|Burgers, Pub Food, Sandwiches
+25|Palms|4|34.397338|-119.520776|Californian, Seafood, American, Chicken, Steak
+26|Fuzhou Super Buffet|4|38.09562|-122.562614|Chinese, Buffet
+27|Chiaramonte's Deli and Sausages|4|37.353099|-121.886424|Deli, Catering, Sandwiches
+28|Philippe The Original|4.5|34.059767|-118.23675|Sandwiches, American, Salad, Deli, French, Soup
+29|Barstow Station Liquor|3.5|34.891606|-117.000213|Fast Food
+30|Luigi's|4.5|35.374537|-118.993195|Italian, Deli, American
+31|McDonald's|1.5|37.781337|-122.420093|American, Burgers, Fast Food
+32|Swan Oyster Depot|4.5|37.79072|-122.42071|Seafood, American, Traditional
+33|Clearman's Galley|4|34.128218|-118.073139|American, Seafood
+34|Balboa Cafe|4|37.798894|-122.43589|American, Burgers, Californian, Mediterranean
+35|Sam's for Play Cafe and Catering On Cleveland Ave|4.5|38.462831|-122.728381|Catering, Diner
+36|Farmer Boys Restaurant|3.5|33.832059|-117.985020875931|American, Burgers, Fast Food
+37|The Farm Of Beverly Hills|4|34.072022|-118.35754|American, Californian, Coffee, Sandwiches, Tea
+38|St. Francis Fountain|4|37.75285167|-122.40827|American, Diner, Coffee, Deli, Ice Cream, Frozen Yogurt, Sandwiches
+39|A G Ferrari Foods|4|37.368496|-122.03496|Deli, Catering, Italian, Sandwiches
+40|A G Ferrari Foods|4|37.858281|-122.253116|Italian, Deli, Sandwiches
+41|A G Ferrari Foods|4|37.786776|-122.451612|Deli, Italian, Sandwiches
+42|A&W Restaurant|3|36.302863|-119.135775|American, Burgers, Hot Dogs, Chicken, Fast Food, Pub Food, Sandwiches
+43|A&W Restaurant|4.5|34.272035|-118.50015|American, Barbecue, Dim Sum, Chinese, Seafood
+44|A&W Restaurant|3|35.48476|-120.66527|American, Burgers, Hot Dogs, Chicken, Fast Food
+45|Camilo's Fine Cuisine and Catering|4|34.139198|-118.213025|Californian, French, Contemporary, Latin
+46|Musso and Frank Grill|3.5|34.101572|-118.335352|American, Steak, Continental, Seafood, Barbecue, Deli, European, Steakhouse
+47|Barney's Beanery|3.5|34.0905|-118.374115|American, Traditional, Diner, Bagels, Barbecue, Burgers, Deli, Donuts, Pizza, Sandwiches
+48|Sam's Anchor Cafe|3.5|37.872818725298|-122.456488609314|American, Seafood, Cafe, Sandwiches, Traditional
+49|Pacific Dining Car|4.5|34.055558|-118.266053|American, Steak, Diner, Seafood, Tea, Traditional
+50|Bistango Cafe|4|34.02491|-118.27809|Italian, American, Pizza, Sandwiches, Pasta, Salad
+51|Wood Ranch Barbeque|4|34.21831|-119.05551|American, Barbecue
+52|Basque Hotel|1.5|36.73146|-119.796036|American, Mexican
+53|El Cholo|4|33.938846|-117.937280033333|Mexican
+54|El Cholo Cantina|3.5|33.66988|-117.78862|Mexican
+55|El Cholo Restaurant|4|34.050217|-118.30905|Mexican, Diner
+56|Espanol Restaurant|4|38.558006|-121.43697|Italian, Spanish, European
+57|Smeraldi's Restaurant|3|34.049788|-118.254047|American, Italian, Californian, Continental, Mediterranean
+58|The Original Pantry Cafe|3.5|34.04633|-118.262558|American, Steak, Coffee, Cafe, Diner
+59|Whiskey Creek At Bishop|4|37.364352|-118.395234|American
+60|Alioto's Restaurant|3|37.80916|-122.41646|Seafood, Italian, American, European, Southern
+61|Bay Cities Italian Deli and Bakery|4.5|34.01769|-118.489265|Deli, Italian, American, Bakery
+62|Chevy Chase Country Club|5|34.169754|-118.203491|American
+63|Dario's Deli and Pizza|4|33.888401|-117.862999|Deli, Pizza, Sandwiches
+64|Ono Hawaiian BBQ|2|37.733758|-122.48956|Hawaiian, Pacific Rim, Pan Asian, American, Barbecue, Hot Dogs, Italian, Polynesian
+65|Genova Delicatessen|4.5|37.8966828417367|-122.064129710197|Deli, Italian
+66|Hong Kong Restaurant|4|37.332027|-120.469065|Burgers, Chinese
+67|Shepherd's Inn|4.5|36.738|-119.78269|Seafood, American, Mexican, Steak
+68|Taix French Restaurant|4|34.0780536|-118.2608429|French, Healthy, Sandwiches, Seafood
+69|Bella Vista Continental Restaurant|4.5|37.445177|-122.328734993935|American, French, Continental, Traditional, European, Italian
+70|Mexicali Rose Restaurant|3.5|37.80045|-122.27659|Mexican, Fast Food
+71|Ole's Waffle Shop|4|37.765562|-122.24176|American, Diner, Traditional
+72|Santa Fe Basque|4|36.778652|-119.79952|American, Southwestern
+73|Alfred's Steakhouse|4|37.794952|-122.40417|Steak, American, Barbecue, Latin American, Salad, Seafood, Steakhouse
+74|Joe's Cafe|4|34.41744519|-119.69623922|American, Sandwiches, Steak, Seafood, Burgers, Cafe, Healthy, Salad
+75|El Carmen|4.5|34.072183|-118.367257|Mexican, Grill
+76|Lucca Delicatessen|4.5|37.800556|-122.438194|Deli, Italian, Sandwiches
+77|Piemonte's Italian Delicatessen|5|36.75764|-119.80363|Deli, American, Italian, Sandwiches
+78|City Club of San Francisco|4.5|37.792127|-122.401261|American
+79|La Golondrina Mexican Cafe|4|34.05709|-118.23834|Mexican, American, Deli
+80|The Brighton Coffeeshop|4|34.0686|-118.403999|Coffee, American, Diner, Californian, Deli, Tea
+81|Village Inn|3.5|33.605509|-117.890027|Seafood, American, Steak
+82|Clifton's Cafeteria|4|34.045208|-118.25271|American, Bakery, Traditional
+83|El Coyote Spanish Cafe|3.5|34.076164|-118.34896|Mexican, Spanish, American, Fast Food, Irish
+84|Orange Inn|4|33.5375153|-117.779642|Smoothies
+85|Petrelli's George Steak House|2.5|33.990013|-118.39525|Steak, American, Italian, Mediterranean, Pasta, Seafood
+86|The Half Way House Cafe|4|34.465673|-118.405264019966|Cafe
+87|Casa Orinda|3|37.879246|-122.182396|American, Italian, Mexican, Latin American, Steak, Traditional
+88|Cosmopolitan Tavern|4.5|36.732777|-119.7966|American, Catering, Deli, Pub Food
+89|Espiau's Restaurant|3|34.094757|-117.71788|American, Diner, International, Italian, Mediterranean, Mexican
+90|Marquez Restaurant|4.5|33.9021997166667|-118.049116|Mexican, American, Latin American, Mediterranean
+91|Alley|4|37.813166|-122.24708|Steak
+92|Avenue 5 Restaurant and Bar|4.5|32.734093|-117.160327|American, French, Bistro, Fusion
+93|Galley|4.5|34.00358|-118.485214|Steak, American, Seafood, Italian, Pasta
+94|Jim Denny's Lunch|4|38.581195|-121.490155|Burgers, American, Diner
+95|The Red Sails Inn|3|32.72044|-117.227461|American, Seafood, Californian, Diner
+96|Nob Hill Foods|4|37.929317|-122.01638|Bakery, Deli
+97|Sodinis Green Valley Restaurant|4|37.799715|-122.407573|Italian, Pizza
+98|Tom Bergin's Tavern|4|34.060593|-118.362625|Irish, American, Pub Food, Steak, Burgers, Deli, Salad, Sandwiches
+99|Big Dipper Cafe|3.5|40.6810426712|-122.370942235|Cafe, Coffee, Sandwiches
+100|Damon's Steakhouse|4|34.1507|-118.25509|Steak, American, Seafood, Pacific Rim, Steakhouse, Thai
+101|Kraft Pizza Company|5|38.485023|-121.396412|Fast Food, Pizza, Sandwiches, Subs
+102|Original Joe's Restaurant|3.5|37.33145|-121.88705|Italian, American, Barbecue, Burgers, Continental, European, Steak
+103|Ravioli House|4|37.564062|-122.320576|American, Deli, Sandwiches
+104|The Buckeye Roadhouse|4|37.880287|-122.51819|American, Barbecue, Californian, Contemporary, Italian, Seafood, Steak, Traditional
+105|Bill Lee's Bamboo Chopsticks|4|35.37526|-119.015305|Chinese, American
+106|Cactus Patch Cafe|4|34.05569|-117.65933|Mexican, Cafe
+107|Cathay House Restaurant|2|37.792447|-122.40638|Chinese, Asian
+108|El Rancho Grande|5|34.057307|-118.238146|Mexican, Cuban, Japanese, South American
+109|Jack's Grill|4|40.581623|-122.391136|Steak
+110|Lim's Cafe|4|40.598195|-122.385979|Cafe, Fast Food, Sandwiches
+111|Richmaid Restaurant|4|38.1329|-121.26062|American, Burgers, Coffee
+112|Sears Fine Foods Restaurant|3.5|37.788654|-122.40848|American, Diner, Californian, Coffee
+113|Country Kitchen|4.5|36.791714|-121.665976|American, Southern
+114|Harbor House Cafe No 2|4|33.46681|-117.70028|American, Chinese, Mexican, Diner, Deli
+115|Kc Steakhouse|3|35.38213|-119.023476|American, Steak, Seafood
+116|Mexicali Restaurant|4|35.37524|-119.008644|Mexican, Contemporary
+117|Zals Museum Cafe|5|34.423128|-119.704073|Cafe, Coffee, French, Sandwiches
+118|Club Pheasant|3.5|38.551988|-121.53776|Italian, American
+119|Dairy Queen|3|33.558037|-117.724289|Burgers, Fast Food, Ice Cream, American
+120|Dairy Queen|3.5|32.856871|-116.926879|Fast Food, Ice Cream, American, Burgers, Hot Dogs
+121|Dairy Queen|4|39.325973|-120.208733|Ice Cream, American, Burgers
+122|Dairy Queen|4.5|37.964384|-121.987685|Fast Food, Ice Cream, American, Burgers
+123|Dairy Queen|5|33.191452|-117.229551|Ice Cream, American, Burgers, Fast Food, Hot Dogs, Sandwiches
+124|Dairy Queen|3.5|33.8659495|-118.09275|Ice Cream, American, Burgers, Fast Food, Hot Dogs
+125|Dairy Queen|4.5|33.817799|-118.037223|Ice Cream, American, Burgers, Fast Food
+126|Dairy Queen|3.5|33.140642|-117.094376|American, Ice Cream, Fast Food
+127|Dairy Queen|5|34.027507|-117.61139|Ice Cream, American, Burgers, Fast Food, Hot Dogs
+128|Dairy Queen|5|33.875617|-117.583486|American, Burgers, Fast Food, Ice Cream, Hot Dogs
+129|Dairy Queen|5|34.097692|-117.370807|American, Ice Cream, Burgers, Fast Food, Hot Dogs
+130|Dairy Queen|1.5|38.712131|-121.28995|Ice Cream, American, Burgers, Fast Food, Hot Dogs
+131|Dairy Queen|4|33.72531|-117.989089|Ice Cream, American, Fast Food, Burgers, Frozen Yogurt, Hot Dogs
+132|Dairy Queen|3|39.149155|-121.620673|Fast Food, Burgers, American, Ice Cream, Hot Dogs
+133|Dairy Queen|4|34.1349679446571|-118.050928115845|Fast Food, American, Ice Cream
+134|Dairy Queen|3|38.647177|-121.328251|American, Fast Food, Ice Cream, Burgers
+135|Dairy Queen|2.5|38.678502|-121.303812|Ice Cream, American, Burgers, Fast Food, Frozen Yogurt, Hot Dogs
+136|El Indio Mexican Restaurant|3|32.74212|-117.18019|Mexican
+137|Frank Fats|3.5|38.578815|-121.496994|Chinese, American, Asian, Pacific Rim
+138|Gunther's Quality Ice Cream|5|38.553398|-121.475998|Cafe, Californian, Fast Food, Ice Cream
+139|Marine Room|3.5|32.8523710833333|-117.260866|French, Seafood, American, Contemporary, Continental, International
+140|McDonald's|2|33.857399|-117.959|American, Burgers, Fast Food, Chicken, Sandwiches
+141|Nielsen's Restaurant|5|36.2078183|-119.3436419|American
+142|Orange Julius|4|34.183164|-118.311625|American, Chinese, Fast Food, Ice Cream, Smoothies, Traditional
+143|Orange Julius|4|34.601558|-118.152218|American, Fast Food
+144|Rice Bowl|5|36.20461|-119.35129|Chinese, Asian, Deli
+145|Carl's Jr|1|36.807414|-119.884527|American, Burgers, Fast Food
+146|Carl's Jr|4|33.891886|-118.044823|American, Burgers, Fast Food
+147|Carl's Jr|2|33.609142|-114.6055|American, Burgers, Fast Food
+148|Carl's Jr|3|34.520897|-117.330805|American, Burgers, Fast Food
+149|Carl's Jr|4|34.027007|-117.651015|Burgers, American, Fast Food
+150|Carl's Jr|2|37.321654|-121.826734|American, Burgers, Fast Food
+151|Carl's Jr|3.5|34.127564|-118.260095|Burgers, American, Fast Food
+152|Carl's Jr|2.5|34.034561|-118.472762|American, Burgers, Fast Food
+153|Carl's Jr|2|33.902145|-118.372474516667|American, Burgers, Fast Food
+154|Carl's Jr|3.5|33.721327|-116.3891412|American, Fast Food, Burgers
+155|Carl's Jr|4|33.787758|-117.815949|Fast Food, American, Burgers, Mexican
+156|Carl's Jr|3.5|37.490994|-121.928867|Burgers, American, Fast Food
+157|Carl's Jr|3|33.649159|-117.582582|American, Fast Food, Burgers
+158|Carl's Jr|3.5|37.521613|-121.992035|American, Burgers, Fast Food
+159|Carl's Jr|3|33.888487|-117.868379|Fast Food, American, Burgers, Pizza
+160|Carl's Jr|2|32.775745|-117.022184|Burgers, American, Fast Food
+161|Carl's Jr|2|33.371472|-117.2537|American, Burgers
+162|Carl's Jr|2|33.760488|-117.837395|American, Fast Food, Burgers
+163|Carl's Jr|2.5|34.074106|-118.20717|American, Burgers, Fast Food
+164|Carl's Jr|1|38.743538|-121.171644|Burgers, American
+165|Carl's Jr|3|32.99546|-117.2585|Burgers, American, Fast Food
+166|Carl's Jr|1|35.365622|-119.04379|American, Burgers, Fast Food
+167|Carl's Jr|3.5|34.171839|-118.431578|Fast Food, American, Burgers
+168|Carl's Jr|2|33.781985|-117.867791|American, Fast Food, Burgers
+169|Carl's Jr|3.5|37.692313|-122.47159|Burgers, American, Fast Food
+170|Carl's Jr|5|37.388163|-120.735999|American, Burgers, Fast Food
+171|Carl's Jr|4|33.55652|-117.176247|American, Fast Food, Burgers
+172|Carl's Jr|5|33.899009|-117.563287|American, Burgers, Fast Food
+173|Carl's Jr|3|37.961556|-121.735776|Burgers, American
+174|Carl's Jr|1|37.811381|-121.292219|American, Burgers, Fast Food
+175|Carl's Jr|4|34.130647|-118.025445|American, Burgers, Fast Food, Pizza
+176|Carl's Jr|3|35.037595|-120.483373|American, Fast Food, Burgers
+177|Carl's Jr|2.5|36.822502|-119.870556|Burgers, American, Fast Food
+178|Carl's Jr|1.5|33.858112|-118.089816|Burgers, American, Fast Food
+179|Carl's Jr|3.5|38.614069|-121.515772|Burgers, American, Fast Food
+180|Carl's Jr|3|33.802994|-118.0114967|American, Burgers, Fast Food
+181|Carl's Jr|5|40.586747|-122.350874|American, Burgers, Fast Food
+182|Carl's Jr|3|33.9972055|-117.87078|Fast Food, American
+183|Carl's Jr|4|33.975534|-117.478428|American, Burgers, Fast Food
+184|Carl's Jr|2.5|37.560579|-122.011682|American, Burgers, Fast Food
+185|Carl's Jr|2|34.558126|-118.084572|American, Burgers, Fast Food
+186|Carl's Jr|3.5|36.601542|-121.8491|American, Burgers, Fast Food
+187|Carl's Jr|4|33.808848|-117.83784|American, Fast Food, Burgers
+188|Carl's Jr|3|34.138234|-117.371461|Burgers, American, Fast Food
+189|Carl's Jr|2|33.858299|-118.116997|American, Burgers, Fast Food
+190|Carl's Jr|3|36.203984|-121.130301|American, Burgers, Fast Food
+191|Carl's Jr|3|33.91701|-118.13393|American, Fast Food, Burgers
+192|Carl's Jr|3|34.4373542248353|-118.563895225525|Burgers, American, Fast Food
+193|Carl's Jr|5|33.774621|-117.487895|American, Burgers, Fast Food
+194|Carl's Jr|2|34.236958|-118.536083|American, Burgers, Fast Food
+195|Carl's Jr|2|33.700009|-117.740492|American, Burgers, Fast Food
+196|Carl's Jr|3|33.8986594|-118.0066475|American, Burgers, Fast Food
+197|Carl's Jr|2.5|36.845791|-119.790166|American, Burgers, Fast Food
+198|Carl's Jr|2.5|34.197755|-118.86938|American, Fast Food, Burgers
+199|Carl's Jr|3|38.65267|-121.38354|Burgers, American, Fast Food
+200|Carl's Jr|2|34.0478630065918|-117.84716796875|American, Burgers, Fast Food, Mexican
+201|Carl's Jr|3|38.65747|-120.968999|Burgers, American
+202|Carl's Jr|3|33.60074|-117.69168|American, Burgers, Fast Food
+203|Carl's Jr|4|33.572537|-117.234654|American, Fast Food, Burgers
+204|Carl's Jr|2.5|33.781703|-117.889469|American, Burgers, Fast Food
+205|Carl's Jr|2.5|33.5796102631058|-117.669861316681|American, Burgers, Fast Food
+206|Carl's Jr|3|34.154651|-118.827873|American, Burgers, Fast Food
+207|Carl's Jr|4|33.5938|-117.72849|Burgers, American
+208|Carl's Jr|3.5|33.665028|-117.82694|American, Burgers, Fast Food
+209|Carl's Jr|3|36.419159|-121.322327|American, Burgers, Fast Food
+210|Carl's Jr|5|36.837014|-119.772743|American, Burgers, Fast Food
+211|Carl's Jr|3.5|37.953386|-121.955493|Burgers, American, Fast Food, Hot Dogs
+212|Carl's Jr|2|36.5455538034439|-119.405213666667|Burgers
+213|Carl's Jr|1.5|37.4077754|-121.9640624|American, Burgers, Fast Food
+214|Carl's Jr|1|38.08661|-122.11375|American, Burgers, Fast Food
+215|Carl's Jr|2|37.365792|-121.949683|Burgers, American, Fast Food
+216|Carl's Jr|3|37.6855158059488|-122.10001565516|Burgers, American, Fast Food
+217|Carl's Jr|1.5|33.673272|-117.921795845032|American, Burgers, Fast Food
+218|Carl's Jr|4|33.901709|-118.117093|American, Burgers, Fast Food
+219|Carl's Jr|1.5|38.80609|-121.205484|Fast Food, American, Burgers
+220|Clovis Carls Jr / Green Burrito|4|36.809193|-119.700369|Burgers, American, Fast Food
+221|Dickey's Barbeque Pit|3|34.079788|-117.575815|Barbecue, Catering
+222|S D Chicken Pie Shop|4.5|32.755010108039|-117.135479450226|American, Chicken
+223|The Great White Hut|5|34.149918|-118.25537|American
+224|Alexs Bar B Q of Shell Beach|3.5|35.156555|-120.669266|Barbecue, American
+225|Canteen|3|34.089199|-118.333|American, Continental, Italian, Sushi, Eclectic, International
+226|Round Table Pizza|3|38.244749|-122.644694|Pizza, American, Deli
+227|Teresa's Place Restaurant|3.5|38.36519|-120.77482|Italian, American, Seafood, Steak, Pizza
+228|Boll Weevil|4.5|32.831877|-117.129684|American, Burgers
+229|China's Alley Restaurant|4|36.203022|-119.09175|Chinese, Mexican
+230|Cj's Cafe|4|35.119793|-120.58834|American, Cafe, Coffee, Diner, Sandwiches
+231|Ernie Jr's Taco House|4|34.14399|-118.22606|Mexican, Latin American, Vegan, Vegetarian
+232|Hob-Nob Hill|4|32.7291321333333|-117.1637865|American, Diner, Traditional
+233|Nick's Rockaway|4|37.60986|-122.49698|Seafood, American
+234|Baskin-Robbins|5|33.889099|-118.114998|American, Ice Cream, Juices, Smoothies
+235|Baskin-Robbins|2|37.32019|-120.484116|Ice Cream, American
+236|Baskin-Robbins|2|38.5821|-121.317001|Ice Cream, American
+237|Baskin-Robbins|3.5|40.565448|-122.353105|American, Ice Cream
+238|Baskin-Robbins|5|34.119639|-117.557759|American, Ice Cream
+239|Baskin-Robbins|3.5|33.637699|-117.864197|American, Ice Cream, Deli
+240|Baskin-Robbins|4.5|38.715264|-121.291114|Ice Cream, American, Seafood
+241|Baskin-Robbins|3|34.1521|-118.361|Ice Cream, American
+242|Baskin-Robbins|4.5|38.110084|-122.238661|Ice Cream, American
+243|Baskin-Robbins|1.5|35.318532|-119.027567|Ice Cream, American, French, Mediterranean
+244|Lyons English Grille|4|33.801592|-116.545091|British, Irish, American, English, European
+245|Nifty Drive-In|4|37.73795|-120.93735|American, Burgers, Fast Food, Sandwiches
+246|Togo's|4|38.782807|-121.2664176|Sandwiches, American, Subs, Wraps
+247|Vince's Spaghetti|4.5|34.105631|-117.62539|Italian
+248|Vince's Spaghetti Express|4|34.0633|-117.672714|Italian, Mediterranean, Pasta
+249|Andiamo Pizzeria|3.5|33.917154|-118.41582|Pizza, Italian, Sandwiches, Pasta
+250|Anthony's Fish Grotto - Harbor Drive|3.5|32.71948|-117.17312|Seafood, American

@@ -1,0 +1,100 @@
+1|Daphne's Greek Cafe|3.5|34.19198813|-118.937563|Greek, Mediterranean, Diner, Italian
+2|Daphne's Greek Cafe|2.5|37.755557|-122.250360846519|Greek, Mediterranean
+3|Laguna Pizza|4.5|38.423436|-121.41361|Pizza
+4|Starbucks Coffee|4.5|34.095731|-117.717899|American, Coffee, Tea
+5|Starbucks Coffee|5|36.341065|-119.347593|Coffee
+6|Starbucks Coffee|1.5|38.2583344863658|-122.053642272949|Coffee, American
+7|Starbucks Coffee|3.5|33.687567|-117.988336|Coffee, American
+8|Starbucks Coffee|4.5|33.787701|-117.815002|Coffee, American, Tea
+9|Starbucks Coffee|3|32.76668345|-115.5328849|Coffee, American, Tea
+10|Starbucks Coffee|4|34.0048|-118.153016|American, Coffee, Tea
+11|Starbucks Coffee|4|33.90267928|-118.083226|American, Coffee, Tea
+12|Starbucks Coffee|4|34.016384|-118.49698|American, Coffee
+13|Starbucks Coffee|2.5|34.050425|-117.820702|American, Coffee
+14|Starbucks Coffee|4.5|34.020118|-118.454407|Coffee, American, Tea
+15|Starbucks Coffee|5|38.739985|-121.226114|Coffee, American, Tea
+16|Starbucks Coffee|4|34.003477|-118.471965|Coffee
+17|Starbucks Coffee|4.5|33.672452|-117.953586|Coffee, American, Tea
+18|Starbucks Coffee|4|33.679278|-118.004725|Coffee, American, Tea
+19|Churchs Chicken|3.5|34.140635|-117.990695|Chicken, Wings, Fast Food
+20|El Adobe|3.5|33.499466|-117.6625|Mexican, American, Caribbean, Latin American
+21|Jack's Restaurant|4|34.864594|-120.44726|Bakery, American, Burgers, Chicken, Fast Food, Salad, Steak
+22|Yoshino River Park|3.5|36.849474|-119.784166666667|Sushi, Japanese
+23|Comfort Cafe|3.5|34.015477|-118.49252646|American, Healthy, Sandwiches, Burgers, Ice Cream, Juices, Seafood, Smoothies, Soup, Steak
+24|Hinano Café|4|33.979293|-118.466451|Burgers, Pub Food, Sandwiches
+25|Palms|4|34.397338|-119.520776|Californian, Seafood, American, Chicken, Steak
+26|Fuzhou Super Buffet|4|38.09562|-122.562614|Chinese, Buffet
+27|Chiaramonte's Deli and Sausages|4|37.353099|-121.886424|Deli, Catering, Sandwiches
+28|Philippe The Original|4.5|34.059767|-118.23675|Sandwiches, American, Salad, Deli, French, Soup
+29|Barstow Station Liquor|3.5|34.891606|-117.000213|Fast Food
+30|Luigi's|4.5|35.374537|-118.993195|Italian, Deli, American
+31|McDonald's|1.5|37.781337|-122.420093|American, Burgers, Fast Food
+32|Swan Oyster Depot|4.5|37.79072|-122.42071|Seafood, American, Traditional
+33|Clearman's Galley|4|34.128218|-118.073139|American, Seafood
+34|Balboa Cafe|4|37.798894|-122.43589|American, Burgers, Californian, Mediterranean
+35|Sam's for Play Cafe and Catering On Cleveland Ave|4.5|38.462831|-122.728381|Catering, Diner
+36|Farmer Boys Restaurant|3.5|33.832059|-117.985020875931|American, Burgers, Fast Food
+37|The Farm Of Beverly Hills|4|34.072022|-118.35754|American, Californian, Coffee, Sandwiches, Tea
+38|St. Francis Fountain|4|37.75285167|-122.40827|American, Diner, Coffee, Deli, Ice Cream, Frozen Yogurt, Sandwiches
+39|A G Ferrari Foods|4|37.368496|-122.03496|Deli, Catering, Italian, Sandwiches
+40|A G Ferrari Foods|4|37.858281|-122.253116|Italian, Deli, Sandwiches
+41|A G Ferrari Foods|4|37.786776|-122.451612|Deli, Italian, Sandwiches
+42|A&W Restaurant|3|36.302863|-119.135775|American, Burgers, Hot Dogs, Chicken, Fast Food, Pub Food, Sandwiches
+43|A&W Restaurant|4.5|34.272035|-118.50015|American, Barbecue, Dim Sum, Chinese, Seafood
+44|A&W Restaurant|3|35.48476|-120.66527|American, Burgers, Hot Dogs, Chicken, Fast Food
+45|Camilo's Fine Cuisine and Catering|4|34.139198|-118.213025|Californian, French, Contemporary, Latin
+46|Musso and Frank Grill|3.5|34.101572|-118.335352|American, Steak, Continental, Seafood, Barbecue, Deli, European, Steakhouse
+47|Barney's Beanery|3.5|34.0905|-118.374115|American, Traditional, Diner, Bagels, Barbecue, Burgers, Deli, Donuts, Pizza, Sandwiches
+48|Sam's Anchor Cafe|3.5|37.872818725298|-122.456488609314|American, Seafood, Cafe, Sandwiches, Traditional
+49|Pacific Dining Car|4.5|34.055558|-118.266053|American, Steak, Diner, Seafood, Tea, Traditional
+50|Bistango Cafe|4|34.02491|-118.27809|Italian, American, Pizza, Sandwiches, Pasta, Salad
+51|Wood Ranch Barbeque|4|34.21831|-119.05551|American, Barbecue
+52|Basque Hotel|1.5|36.73146|-119.796036|American, Mexican
+53|El Cholo|4|33.938846|-117.937280033333|Mexican
+54|El Cholo Cantina|3.5|33.66988|-117.78862|Mexican
+55|El Cholo Restaurant|4|34.050217|-118.30905|Mexican, Diner
+56|Espanol Restaurant|4|38.558006|-121.43697|Italian, Spanish, European
+57|Smeraldi's Restaurant|3|34.049788|-118.254047|American, Italian, Californian, Continental, Mediterranean
+58|The Original Pantry Cafe|3.5|34.04633|-118.262558|American, Steak, Coffee, Cafe, Diner
+59|Whiskey Creek At Bishop|4|37.364352|-118.395234|American
+60|Alioto's Restaurant|3|37.80916|-122.41646|Seafood, Italian, American, European, Southern
+61|Bay Cities Italian Deli and Bakery|4.5|34.01769|-118.489265|Deli, Italian, American, Bakery
+62|Chevy Chase Country Club|5|34.169754|-118.203491|American
+63|Dario's Deli and Pizza|4|33.888401|-117.862999|Deli, Pizza, Sandwiches
+64|Ono Hawaiian BBQ|2|37.733758|-122.48956|Hawaiian, Pacific Rim, Pan Asian, American, Barbecue, Hot Dogs, Italian, Polynesian
+65|Genova Delicatessen|4.5|37.8966828417367|-122.064129710197|Deli, Italian
+66|Hong Kong Restaurant|4|37.332027|-120.469065|Burgers, Chinese
+67|Shepherd's Inn|4.5|36.738|-119.78269|Seafood, American, Mexican, Steak
+68|Taix French Restaurant|4|34.0780536|-118.2608429|French, Healthy, Sandwiches, Seafood
+69|Bella Vista Continental Restaurant|4.5|37.445177|-122.328734993935|American, French, Continental, Traditional, European, Italian
+70|Mexicali Rose Restaurant|3.5|37.80045|-122.27659|Mexican, Fast Food
+71|Ole's Waffle Shop|4|37.765562|-122.24176|American, Diner, Traditional
+72|Santa Fe Basque|4|36.778652|-119.79952|American, Southwestern
+73|Alfred's Steakhouse|4|37.794952|-122.40417|Steak, American, Barbecue, Latin American, Salad, Seafood, Steakhouse
+74|Joe's Cafe|4|34.41744519|-119.69623922|American, Sandwiches, Steak, Seafood, Burgers, Cafe, Healthy, Salad
+75|El Carmen|4.5|34.072183|-118.367257|Mexican, Grill
+76|Lucca Delicatessen|4.5|37.800556|-122.438194|Deli, Italian, Sandwiches
+77|Piemonte's Italian Delicatessen|5|36.75764|-119.80363|Deli, American, Italian, Sandwiches
+78|City Club of San Francisco|4.5|37.792127|-122.401261|American
+79|La Golondrina Mexican Cafe|4|34.05709|-118.23834|Mexican, American, Deli
+80|The Brighton Coffeeshop|4|34.0686|-118.403999|Coffee, American, Diner, Californian, Deli, Tea
+81|Village Inn|3.5|33.605509|-117.890027|Seafood, American, Steak
+82|Clifton's Cafeteria|4|34.045208|-118.25271|American, Bakery, Traditional
+83|El Coyote Spanish Cafe|3.5|34.076164|-118.34896|Mexican, Spanish, American, Fast Food, Irish
+84|Orange Inn|4|33.5375153|-117.779642|Smoothies
+85|Petrelli's George Steak House|2.5|33.990013|-118.39525|Steak, American, Italian, Mediterranean, Pasta, Seafood
+86|The Half Way House Cafe|4|34.465673|-118.405264019966|Cafe
+87|Casa Orinda|3|37.879246|-122.182396|American, Italian, Mexican, Latin American, Steak, Traditional
+88|Cosmopolitan Tavern|4.5|36.732777|-119.7966|American, Catering, Deli, Pub Food
+89|Espiau's Restaurant|3|34.094757|-117.71788|American, Diner, International, Italian, Mediterranean, Mexican
+90|Marquez Restaurant|4.5|33.9021997166667|-118.049116|Mexican, American, Latin American, Mediterranean
+91|Alley|4|37.813166|-122.24708|Steak
+92|Avenue 5 Restaurant and Bar|4.5|32.734093|-117.160327|American, French, Bistro, Fusion
+93|Galley|4.5|34.00358|-118.485214|Steak, American, Seafood, Italian, Pasta
+94|Jim Denny's Lunch|4|38.581195|-121.490155|Burgers, American, Diner
+95|The Red Sails Inn|3|32.72044|-117.227461|American, Seafood, Californian, Diner
+96|Nob Hill Foods|4|37.929317|-122.01638|Bakery, Deli
+97|Sodinis Green Valley Restaurant|4|37.799715|-122.407573|Italian, Pizza
+98|Tom Bergin's Tavern|4|34.060593|-118.362625|Irish, American, Pub Food, Steak, Burgers, Deli, Salad, Sandwiches
+99|Big Dipper Cafe|3.5|40.6810426712|-122.370942235|Cafe, Coffee, Sandwiches
+100|Damon's Steakhouse|4|34.1507|-118.25509|Steak, American, Seafood, Pacific Rim, Steakhouse, Thai
