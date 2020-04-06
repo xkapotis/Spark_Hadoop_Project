@@ -1,0 +1,27 @@
+                   Restaurant Name  ... Distance
+0           b'Cosmopolitan Tavern'  ...     1.10
+1      b'The Original Pantry Cafe'  ...     0.58
+2    b'City Club of San Francisco'  ...     1.29
+3       b'Whiskey Creek At Bishop'  ...     0.52
+4         b"Smeraldi's Restaurant"  ...     1.02
+5                    b"McDonald's"  ...     0.82
+6                    b"McDonald's"  ...     0.72
+7                    b"McDonald's"  ...     0.97
+8                    b"McDonald's"  ...     0.76
+9           b"Alfred's Steakhouse"  ...     1.33
+10       b'Farmer Boys Restaurant'  ...     0.96
+11       b'Farmer Boys Restaurant'  ...     1.32
+12       b'Farmer Boys Restaurant'  ...     1.16
+13       b'Barstow Station Liquor'  ...     0.87
+14          b"Daphne's Greek Cafe"  ...     1.19
+15            b"Jim Denny's Lunch"  ...     0.70
+16            b"Ole's Waffle Shop"  ...     0.21
+17           b'Pacific Dining Car'  ...     0.50
+18            b'Swan Oyster Depot'  ...     1.36
+19            b'Swan Oyster Depot'  ...     0.89
+20                 b'Basque Hotel'  ...     1.19
+21  b'Avenue 5 Restaurant and Bar'  ...     1.05
+22          b"Clifton's Cafeteria"  ...     1.31
+23               b"Shepherd's Inn"  ...     0.62
+
+[24 rows x 3 columns]

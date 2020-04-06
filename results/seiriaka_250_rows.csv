@@ -1,0 +1,14 @@
+                           Restaurant Name  ... Distance
+0                           b'Dairy Queen'  ...     1.18
+1                   b'Cosmopolitan Tavern'  ...     1.10
+2                          b'Comfort Cafe'  ...     0.64
+3              b'The Original Pantry Cafe'  ...     0.58
+4                 b'The Buckeye Roadhouse'  ...     0.09
+..                                     ...  ...      ...
+133               b"Dickey's Barbeque Pit"  ...     0.26
+134  b'Bay Cities Italian Deli and Bakery'  ...     0.55
+135                 b"Clifton's Cafeteria"  ...     1.31
+136                      b"Shepherd's Inn"  ...     0.62
+137                    b'Starbucks Coffee'  ...     0.63
+
+[138 rows x 3 columns]
