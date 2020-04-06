@@ -27,12 +27,12 @@ def mapper2(line2):
     fields = line2.split('|')
     return Row(id=int(fields[0]), names=str(fields[1].encode("utf-8")), lat=float(fields[4]), lon=float(fields[5])) 
 
-lines = spark.sparkContext.textFile("../../data/doulkeridis/restaurants-ver1.txt"
+lines = spark.sparkContext.textFile("../datasets/restaurants-ver1.txt"
 , 100
 )
 restaurantsDataset = lines.map(mapper)
 
-line2 = spark.sparkContext.textFile("../../data/doulkeridis/hotels-ver1.txt"
+line2 = spark.sparkContext.textFile("../datsets/hotels-ver1.txt"
 , 100
 )
 hotelsDataset = line2.map(mapper2)
