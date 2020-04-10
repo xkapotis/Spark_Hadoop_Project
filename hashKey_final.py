@@ -27,13 +27,13 @@ def mapper2(line2):
     fields = line2.split('|')
     return Row(id=int(fields[0]), names=str(fields[1].encode("utf-8")), lat=float(fields[4]), lon=float(fields[5])) 
 
-lines = spark.sparkContext.textFile("../datasets/restaurants-ver1.txt"
-, 100
+lines = spark.sparkContext.textFile("../../data/doulkeridis/restaurants-ver1.txt"
+ , 10
 )
 restaurantsDataset = lines.map(mapper)
 
-line2 = spark.sparkContext.textFile("../datsets/hotels-ver1.txt"
-, 100
+line2 = spark.sparkContext.textFile("../../data/doulkeridis/hotels-ver1.txt"
+ , 10
 )
 hotelsDataset = line2.map(mapper2)
 
@@ -86,21 +86,23 @@ hotels_ordered_by_Hash = hotels_with_columnId.orderBy("_3", ascending= True)
 #######################################################
 
 ########  Partitioning Restaurants ############
-restaurants_partitioned = restaurants_ordered_by_Hash.repartitionByRange(10, col("_3"))
-# print(restaurants_partitioned.show())
+restaurants_partitioned = restaurants_ordered_by_Hash.repartitionByRange(8, col("_3"))
+print(restaurants_partitioned.show())
 # print(restaurants_partitioned.rdd.getNumPartitions())
 # restaurants_partitioned.write.mode("overwrite").csv("apotelesmata/results.txt")
+
 restaurants_partitioned_df = restaurants_partitioned.toDF("restaurantId", "restaurantName", "restaurantHashKey", "restaurantLat", "restaurantLon", "restaurantsDataFrameId")
 
 ########  Partitioning Hotels ############
-hotels_partitioned = hotels_ordered_by_Hash.repartitionByRange(10, col("_3"))
-# print(hotels_partitioned.show())
+hotels_partitioned = hotels_ordered_by_Hash.repartitionByRange(8, col("_3"))
+print(hotels_partitioned.show())
 # print(hotels_partitioned.rdd.getNumPartitions())
 # hotels_partitioned.write.mode("overwrite").csv("apotelesmata/results.txt")
+
 hotels_partitioned_df = hotels_partitioned.toDF("hotelId", "hotelName", "hotelHashKey", "hotelLat", "hotelLon", "hotelDataFrameId")
 
 joined_by_Hash = restaurants_partitioned_df.join(hotels_partitioned_df ,hotels_partitioned_df['hotelHashKey'] == restaurants_partitioned_df['restaurantHashKey'] ,how = 'full')
-# print(joined_by_Hash.show())
+print(joined_by_Hash.show())
 
 #### Drop the rows with nulls Because in this position will not exist either hotel or restaurnt #####
 joined_cleaned = joined_by_Hash.na.drop()
@@ -113,13 +115,26 @@ distances_DF = distances.toDF()
 results = distances_DF.filter(distances_DF[4] < 0.5)
 print(results.show())
 
+
+
+######## haw many restaurant-hotel couples there are
+print(results.collect().count())
+
+
 ##### for the full set of restaurants-hotels and the distances 
+# final_table = []
 # for row in results.collect():
-#     print(row)
+#     final_table.append(row)
 
-
+# distances_DF = pd.DataFrame(final_table,columns=['Restaurant Id','Restaurant Name','Hotel Id','Hotel Name', 'Distance'])
+# print(distances_DF)
+# distances_DF.to_csv("./distances_Final_Result_Full_Texts.csv",index=False)
 
 
 spark.stop()
+
+
+
+###### 4 Minutes to run the entire code and take results #####
 
 
