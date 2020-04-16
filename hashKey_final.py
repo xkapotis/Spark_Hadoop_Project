@@ -113,10 +113,10 @@ distances_DF = distances.toDF()
 # print("Print the algorithm's complexity")
 # print(distances_DF.collect())
 
-results = distances_DF.filter(distances_DF[4] < 1.5)
+results = distances_DF.filter(distances_DF[4] < 0.5)
 
 ######## how many restaurant-hotel couples there are
-print(results.count())
+# print(results.count())
 
 
 ##### for the full set of restaurants-hotels and the distances 
