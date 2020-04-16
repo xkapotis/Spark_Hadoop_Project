@@ -27,14 +27,10 @@ def mapper2(line2):
     fields = line2.split('|')
     return Row(id=int(fields[0]), names=str(fields[1].encode("utf-8")), lat=float(fields[4]), lon=float(fields[5])) 
 
-lines = spark.sparkContext.textFile("../../data/doulkeridis/restaurants-ver1.txt"
- , 10
-)
+lines = spark.sparkContext.textFile("../../data/doulkeridis/restaurants-ver1.txt", 10)
 restaurantsDataset = lines.map(mapper)
 
-line2 = spark.sparkContext.textFile("../../data/doulkeridis/hotels-ver1.txt"
- , 10
-)
+line2 = spark.sparkContext.textFile("../../data/doulkeridis/hotels-ver1.txt", 10)
 hotelsDataset = line2.map(mapper2)
 
 # Infer the schema, and register the DataFrame as a table.
@@ -53,25 +49,16 @@ hotels = spark.sql("SELECT  id, names, lat, lon FROM hotelsDataset")
 
 
 # ####### ADD the Hash Key as Column ######
-restaurants_name_mapper = restaurants.rdd.map(lambda x : (x[0], x[1], ((x[2]+90)*180+x[3]), x[2], x[3]))
+# ####### ADD the Hash Key as Column ######
+restaurants_name_mapper = restaurants.rdd.map(lambda x : (x[0], x[1], (int(int((x[2]+90)*180+x[3]) / 100)), x[2], x[3]))
 df_restaurants_name_mapper = restaurants_name_mapper.toDF()
-df_restaurants_name_mapper_final = df_restaurants_name_mapper.withColumn("_3", df_restaurants_name_mapper["_3"].cast(IntegerType()))
 
-restaurants_name_mapper_final_cut_one = df_restaurants_name_mapper_final.rdd.map(lambda x : (x[0], x[1], (x[2]/100), x[3], x[4]))
-df_restaurants_name_mapper_final_cut_one = restaurants_name_mapper_final_cut_one.toDF()
-df_restaurants_name_mapper_final_cut_one_rounded = df_restaurants_name_mapper_final_cut_one.withColumn("_3", df_restaurants_name_mapper_final_cut_one["_3"].cast(IntegerType()))
-
-hotels_name_mapper = hotels.rdd.map(lambda x: (x[0],x[1], ((x[2]+90)*180+x[3]), x[2], x[3]))
+hotels_name_mapper = hotels.rdd.map(lambda x: (x[0],x[1], (int(int((x[2]+90)*180+x[3]) / 100)), x[2], x[3]))
 df_hotels_name_mapper = hotels_name_mapper.toDF()
-df_hotels_name_mapper_final = df_hotels_name_mapper.withColumn("_3", df_hotels_name_mapper["_3"].cast(IntegerType()))
-
-hotels_name_mapper_final_cut_one = df_hotels_name_mapper_final.rdd.map(lambda x : (x[0], x[1], (x[2]/100), x[3], x[4]))
-df_hotels_name_mapper_final_cut_one = hotels_name_mapper_final_cut_one.toDF()
-df_hotels_name_mapper_final_cut_one_rounded = df_hotels_name_mapper_final_cut_one.withColumn("_3", df_hotels_name_mapper_final_cut_one["_3"].cast(IntegerType()))
 
 
-restaurants_with_columnId = df_restaurants_name_mapper_final_cut_one_rounded.withColumn("dataFrameId", lit("a"))
-hotels_with_columnId = df_hotels_name_mapper_final_cut_one_rounded.withColumn("dataFrameId", lit("b"))
+restaurants_with_columnId = df_restaurants_name_mapper.withColumn("dataFrameId", lit("a"))
+hotels_with_columnId = df_hotels_name_mapper.withColumn("dataFrameId", lit("b"))
 # print(restaurants_with_columnId.show())
 # print(hotels_with_columnId.show())
 
@@ -126,13 +113,12 @@ distances_DF = distances.toDF()
 # print("Print the algorithm's complexity")
 # print(distances_DF.collect())
 
-results = distances_DF.filter(distances_DF[4] < 0.5)
-# print(results.show())
-
+results = distances_DF.filter(distances_DF[4] < 1.5)
+# print(results.show().count())
 
 
 ######## haw many restaurant-hotel couples there are
-# print(results.collect().count())
+print(results.count())
 
 
 ##### for the full set of restaurants-hotels and the distances 
