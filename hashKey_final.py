@@ -114,10 +114,8 @@ distances_DF = distances.toDF()
 # print(distances_DF.collect())
 
 results = distances_DF.filter(distances_DF[4] < 1.5)
-# print(results.show().count())
 
-
-######## haw many restaurant-hotel couples there are
+######## how many restaurant-hotel couples there are
 print(results.count())
 
 
