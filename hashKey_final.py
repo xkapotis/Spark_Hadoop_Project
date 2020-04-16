@@ -122,6 +122,10 @@ distances = joined_cleaned.rdd.map(lambda x:(x[0], x[1], x[6], x[7], haversine((
 distances_DF = distances.toDF()
 # print(distances_DF.show())
 
+#### Print the algorithm's complexity ###
+# print("Print the algorithm's complexity")
+# print(distances_DF.collect())
+
 results = distances_DF.filter(distances_DF[4] < 0.5)
 # print(results.show())
 
