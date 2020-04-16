@@ -75,8 +75,10 @@ hotels_with_columnId = df_hotels_name_mapper_final_cut_one_rounded.withColumn("d
 # print(restaurants_with_columnId.show())
 # print(hotels_with_columnId.show())
 
-restaurants_ordered_by_Hash = restaurants_with_columnId.orderBy("_3", ascending= True)
-hotels_ordered_by_Hash = hotels_with_columnId.orderBy("_3", ascending= True)
+
+#### Finaly the order will be by Lat it gives me better results the partitioning by lat 
+restaurants_ordered_by_Lat = restaurants_with_columnId.orderBy("_4", ascending= True)
+hotels_ordered_by_Lat = hotels_with_columnId.orderBy("_4", ascending= True)
 # print(restaurants_ordered_by_Hash.show())
 # print(hotels_ordered_by_Hash.show())
 
@@ -86,23 +88,31 @@ hotels_ordered_by_Hash = hotels_with_columnId.orderBy("_3", ascending= True)
 #######################################################
 
 ########  Partitioning Restaurants ############
-restaurants_partitioned = restaurants_ordered_by_Hash.repartitionByRange(8, col("_3"))
-print(restaurants_partitioned.show())
+restaurants_partitioned = restaurants_ordered_by_Lat.repartitionByRange(8, col("_4"))
+# print(restaurants_partitioned.show())
 # print(restaurants_partitioned.rdd.getNumPartitions())
 # restaurants_partitioned.write.mode("overwrite").csv("apotelesmata/results.txt")
+
+# print("-------- print the length of each partition for restaurants partitions -------------------")
+# rdd_rests = restaurants_partitioned.rdd
+# print(rdd_rests.glom().map(len).collect())
 
 restaurants_partitioned_df = restaurants_partitioned.toDF("restaurantId", "restaurantName", "restaurantHashKey", "restaurantLat", "restaurantLon", "restaurantsDataFrameId")
 
 ########  Partitioning Hotels ############
-hotels_partitioned = hotels_ordered_by_Hash.repartitionByRange(8, col("_3"))
-print(hotels_partitioned.show())
+hotels_partitioned = hotels_ordered_by_Lat.repartitionByRange(8, col("_4"))
+# print(hotels_partitioned.show())
 # print(hotels_partitioned.rdd.getNumPartitions())
 # hotels_partitioned.write.mode("overwrite").csv("apotelesmata/results.txt")
+
+# print("-------- print the length of each partition for hotel partitions -------------------")
+# rdd_hotels = hotels_partitioned.rdd
+# print(rdd_hotels.glom().map(len).collect())
 
 hotels_partitioned_df = hotels_partitioned.toDF("hotelId", "hotelName", "hotelHashKey", "hotelLat", "hotelLon", "hotelDataFrameId")
 
 joined_by_Hash = restaurants_partitioned_df.join(hotels_partitioned_df ,hotels_partitioned_df['hotelHashKey'] == restaurants_partitioned_df['restaurantHashKey'] ,how = 'full')
-print(joined_by_Hash.show())
+# print(joined_by_Hash.show())
 
 #### Drop the rows with nulls Because in this position will not exist either hotel or restaurnt #####
 joined_cleaned = joined_by_Hash.na.drop()
@@ -113,12 +123,12 @@ distances_DF = distances.toDF()
 # print(distances_DF.show())
 
 results = distances_DF.filter(distances_DF[4] < 0.5)
-print(results.show())
+# print(results.show())
 
 
 
 ######## haw many restaurant-hotel couples there are
-print(results.collect().count())
+# print(results.collect().count())
 
 
 ##### for the full set of restaurants-hotels and the distances 
@@ -132,9 +142,5 @@ print(results.collect().count())
 
 
 spark.stop()
-
-
-
-###### 4 Minutes to run the entire code and take results #####
 
 
