@@ -27,10 +27,10 @@ def mapper2(line2):
     fields = line2.split('|')
     return Row(id=int(fields[0]), names=str(fields[1].encode("utf-8")), lat=float(fields[4]), lon=float(fields[5])) 
 
-lines = spark.sparkContext.textFile("../../data/doulkeridis/restaurants-ver1.txt", 10)
+lines = spark.sparkContext.textFile("./datasets/restaurants-ver1.txt", 20)
 restaurantsDataset = lines.map(mapper)
 
-line2 = spark.sparkContext.textFile("../../data/doulkeridis/hotels-ver1.txt", 10)
+line2 = spark.sparkContext.textFile("./datasets/hotels-ver1.txt", 20)
 hotelsDataset = line2.map(mapper2)
 
 # Infer the schema, and register the DataFrame as a table.
@@ -56,6 +56,11 @@ df_restaurants_name_mapper = restaurants_name_mapper.toDF()
 hotels_name_mapper = hotels.rdd.map(lambda x: (x[0],x[1], (int(int((x[2]+90)*180+x[3]) / 100)), x[2], x[3]))
 df_hotels_name_mapper = hotels_name_mapper.toDF()
 
+# print("RESTAURANTS")
+# print(df_restaurants_name_mapper.show())
+# print("HOTELS")
+# print(df_hotels_name_mapper.show())
+
 
 restaurants_with_columnId = df_restaurants_name_mapper.withColumn("dataFrameId", lit("a"))
 hotels_with_columnId = df_hotels_name_mapper.withColumn("dataFrameId", lit("b"))
@@ -75,26 +80,26 @@ hotels_ordered_by_Lat = hotels_with_columnId.orderBy("_4", ascending= True)
 #######################################################
 
 ########  Partitioning Restaurants ############
-restaurants_partitioned = restaurants_ordered_by_Lat.repartitionByRange(8, col("_4"))
+restaurants_partitioned = restaurants_ordered_by_Lat.repartitionByRange(4, col("_4"))
 # print(restaurants_partitioned.show())
 # print(restaurants_partitioned.rdd.getNumPartitions())
 # restaurants_partitioned.write.mode("overwrite").csv("apotelesmata/results.txt")
 
-# print("-------- print the length of each partition for restaurants partitions -------------------")
-# rdd_rests = restaurants_partitioned.rdd
-# print(rdd_rests.glom().map(len).collect())
+print("-------- print the length of each partition for restaurants partitions -------------------")
+rdd_rests = restaurants_partitioned.rdd
+print(rdd_rests.glom().map(len).collect())
 
 restaurants_partitioned_df = restaurants_partitioned.toDF("restaurantId", "restaurantName", "restaurantHashKey", "restaurantLat", "restaurantLon", "restaurantsDataFrameId")
 
 ########  Partitioning Hotels ############
-hotels_partitioned = hotels_ordered_by_Lat.repartitionByRange(8, col("_4"))
+hotels_partitioned = hotels_ordered_by_Lat.repartitionByRange(4, col("_4"))
 # print(hotels_partitioned.show())
 # print(hotels_partitioned.rdd.getNumPartitions())
 # hotels_partitioned.write.mode("overwrite").csv("apotelesmata/results.txt")
 
-# print("-------- print the length of each partition for hotel partitions -------------------")
-# rdd_hotels = hotels_partitioned.rdd
-# print(rdd_hotels.glom().map(len).collect())
+print("-------- print the length of each partition for hotel partitions -------------------")
+rdd_hotels = hotels_partitioned.rdd
+print(rdd_hotels.glom().map(len).collect())
 
 hotels_partitioned_df = hotels_partitioned.toDF("hotelId", "hotelName", "hotelHashKey", "hotelLat", "hotelLon", "hotelDataFrameId")
 

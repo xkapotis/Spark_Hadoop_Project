@@ -71,7 +71,7 @@ hotels.write.mode("overwrite").csv("hotel_example.txt")
 
 distances_table = []
 for restaurant in restaurants.collect():
-      max_distance = 1.5
+      max_distance = 0.5
       R = 6373.0
       restaurant_name = restaurant[0]
       restaurant_lat = restaurant[1]
